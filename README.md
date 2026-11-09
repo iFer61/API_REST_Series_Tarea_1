@@ -5,6 +5,8 @@
 
 **Carrera:** `Desarrollo de Software`
 
+**Fecha:** `08/11/2026`
+
 Práctica obligatoria de desarrollo de una API REST completa para gestionar un catálogo de series de TV, implementando operaciones CRUD (Crear, Leer, Actualizar y Borrar) utilizando Spring Boot, Spring Data JPA, Lombok y base de datos en memoria H2.
 
 ---
