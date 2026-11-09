@@ -109,36 +109,36 @@ demo1/
 
 ### 1. Crear una nueva serie (`POST /api/series`)
 Se envía el objeto JSON y la API responde con estado `201 Created` asignando el `id` autogenerado:
-![Serie 1](Images/Captura de pantalla 2026-11-08 214823.png)
-![Serie 2](Images/Captura de pantalla 2026-11-08 214831.png)
+![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20214823.png)
+![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20214831.png)
 
 <br>
 
-![Serie 1 Localhost](Images/Captura de pantalla 2026-11-08 214919.png)
-![Serie 2 Localhost](Images/Captura de pantalla 2026-11-08 214926.png)
+![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20214919.png)
+![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20214926.png)
 
 ### 2. Listar todas las series (`GET /api/series`)
 Retorna estado `200 OK` con el listado completo de series registradas:
-![Lista completa](Images/Captura de pantalla 2026-11-08 215011.png)
+![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20215011.png)
 
 ### 3. Buscar una serie por su ID (`GET /api/series/1`)
 Retorna estado `200 OK` con los datos de la serie solicitada:
-![Buscar Serie 1](Images/Captura de pantalla 2026-11-08 215137.png)
-![Buscar Serie 2](Images/Captura de pantalla 2026-11-08 215011.png)
+![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20215137.png)
+![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20215255.png)
 
 ### 4. Actualizar una serie existente (`PUT /api/series/1`)
 Actualiza los datos de la serie con ID `1` y retorna estado `200 OK`:
-![Serie 1 actualizar](Images/Captura de pantalla 2026-11-08 215510.png)
-![Serie 1 actualizar](Images/Captura de pantalla 2026-11-08 215610.png)
+![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20215510.png)
+![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20215610.png)
 
 ### 5. Eliminar una serie existente (`DELETE /api/series/1`)
 Elimina los datos de la serie con ID `2` y retorna estado `204`:
-![Serie 2 eliminar](Images/Captura de pantalla 2026-11-08 215738.png)
-![Serie 2 eliminada](Images/Captura de pantalla 2026-11-08 215746.png)
+![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20215738.png)
+![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20215746.png)
 
 ### 6. Pruebas de Casos Inexistentes
 * **Caso A — Buscar un ID que no existe (`GET /api/series/3`):** Retorna estado `404 Not Found`.
-  ![Serie 1](Images/Captura de pantalla 2026-11-08 220651.png)
+  ![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20220651.png)
 
 * **Caso B — Enviar datos inválidos (`POST /api/series` con calificación fuera del rango 1 a 10):** Retorna estado `400 Bad Request` con mensaje de validación.
-  ![Serie 1](Images/Captura de pantalla 2026-11-08 220740.png)
+  ![image alt](https://github.com/iFer61/API_REST_Series_Tarea_1/blob/f7d7305b27814655d059725c045f882cb3b0e044/Images/Captura%20de%20pantalla%202026-11-08%20220740.png)
